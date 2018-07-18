@@ -1,0 +1,19 @@
+{
+  "name": "sassboilerplate",
+  "version": "1.0.0",
+  "description": "SASS project writing",
+  "main": "index.js",
+  "scripts": {
+    "dev:watch-sass": "node-sass sass/main.scss css/style.css -w",
+    "dev:server": "live-server",
+    "start": "npm-run-all --parallel dev:watch-sass dev:server"
+  },
+  "author": "Nagasa Asafa",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.2",
+    "npm-run-all": "^4.1.3"
+  }
+}
